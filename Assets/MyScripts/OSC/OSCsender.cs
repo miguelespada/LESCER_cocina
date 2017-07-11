@@ -79,7 +79,6 @@ public class OSCsender : MonoBehaviour {
                                                  + " " + trans.eulerAngles.z
                                                  + " " + horizontal
 		                                         + " " + "Setas");
-        Debug.Log(oscM);
         oscHandler.Send(oscM);
     }
 
